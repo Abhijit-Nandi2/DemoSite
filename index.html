@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/d698cd9569.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>DCOrg</title>
+</head>
+
+<body>
+    <header>
+        <nav class="sec_container nav_container">
+            <div class="nav_logo">DollarCare</div>
+
+            <ul class="nav_links">
+                <li class="link"><a href="#">Symptom Checker</a></li>
+                <li class="link"><a href="#">Video Consult</a></li>
+                <li class="link"><a href="#">Donate</a></li>
+                <li class="link"><a href="#">Blog</a></li>
+                <li class="link"><a href="#">Contact Us</a></li>
+                <div class="btn-swap-wrapper">
+                    <button class="btn login-btn">Login</button>
+                    <button class="btn signup-btn">Sign Up</button>
+                  </div>
+            </ul>
+        </nav>
+        <div class="sec_container header_container">
+            <div class="header_content">
+                <h1>Where AI Meets Telehealth & Telemedicine.</h1>
+                <p>We're pioneering the future of healthcare with cutting-edge
+                    telehealth and telemedicine solution
+                </p>
+                <button class="book-btn">Book Now <i class="ri-arrow-right-line"></i></button>
+            </div>
+            <div class="header_image">
+                <img src="assets/phone1.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <section class="sec_container service_container">
+        <div class="service_header">
+            <div class="service_header_content">
+                <h5 class="service_header_1">EXPLORE</h5>
+                <h2 class="section_header_2">OUR SERVICES</h2>
+                <p>At DollarCare, we are committed to transforming how you access healthcare by offering smart,
+                    digital-first solutions.</p>
+            </div>
+            <button class="service_btn">See All Services</button>
+        </div>
+        <div class="service_grid">
+            <div class="service_card">
+                <span><img src="assets/list.png" alt=""></span>
+                <h4>Symptom Checker</h4>
+                <p>
+                    Instantly evaluate your symptoms with our AI-powered tool to understand possible health conditions.
+                </p>
+                <hr>
+                <div class="exp">
+                    <a href="#">Explore More</a><i class="ri-arrow-right-line"></i>
+                </div>
+            </div>
+            <div class="service_card">
+                <span><img src="assets/doctor.png" alt=""></span>
+                <h4>Find a Doctor</h4>
+                <p>
+                    Connect with licensed healthcare
+                    professionals online for quick, secure, and
+                    convenient medical advice.
+                </p>
+                <hr>
+                <div class="exp">
+                    <a href="#">Explore More</a><i class="ri-arrow-right-line"></i>
+                </div>
+            </div>
+            <div class="service_card">
+                <span><img src="assets/wheelchair.png" alt=""></span>
+                <h4>Consult a Doctor</h4>
+                <p>
+                    Discover verified and experienced doctors
+                    near you for in-person consultations with
+                    ease.
+                </p>
+                <hr>
+                <div class="exp">
+                    <a href="#">Explore More</a><i class="ri-arrow-right-line"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec_container about_container">
+        <div class="about_image">
+            <img src="assets/about.jpg" alt="about">
+        </div>
+        <div class="about_content">
+            <h4 class="section_header_1">A BIT</h4>
+            <h2 class="section_header_2">ABOUT US</h2>
+            <p>
+                We are a trusted online doctor booking platform, making
+                healthcare accessible and hassle-free. Find experienced doctors,
+                book appointments instantly, and get the care you need—all in
+                one place.
+            </p>
+            <div class="exp1">
+                <a href="#">Explore More</a><i class="ri-arrow-right-line"></i>
+            </div>
+        </div>
+    </section>
+    <section class="sec_container why_container">
+        <div class="why_content">
+            <h4 class="section_header_1">OUR BENEFITS</h4>
+            <h2 class="section_header_2">WHY CHOOSE DCO?</h2>
+            <div class="why_grid">
+                <span><i class="fa-solid fa-hexagon-nodes"></i></span>
+                <div>
+                    <h3>Cutting-Edge AI Technology</h3>
+                    <p>
+                        DCO harnesses the power of advanced artificial intelligence to revolutionize healthcare
+                    </p>
+                </div>
+                <span><i class="fa-solid fa-suitcase-medical"></i></span>
+                <div>
+                    <h3>Personalized Healthcare</h3>
+                    <p>Our AI algorithms analyze your health data to deliver tailored recommendations and insights.</p>
+                </div>
+                <span><i class="fa-solid fa-shield-halved"></i></span>
+                <div>
+                    <h3>Secure and Confidential</h3>
+                    <p>We prioritize your privacy and security. Your health data is stored and transmitted securely.</p>
+                </div>
+                <span><i class="fa-solid fa-calendar-check"></i></span>
+                <div>
+                    <h3>Efficient Booking</h3>
+                    <p>DCO's platform allows you to book appointments with healthcare professionals.</p>
+                </div>
+            </div>
+        </div>
+        <div class="why_image">
+            <img src="assets/choose_us.jpg" alt="why choose us">
+        </div>
+    </section>
+
+    <section class="sec_container demo_func">
+        <div class="demo_func_nav">
+            <button class="tab-btn active" data="symptom_checker">Symptom Checker</button>
+            <button class="tab-btn" data="find-doctor">Find a Doctor</button>
+            <button class="tab-btn" data="consult-doctor">Consult a doctor</button>
+        </div>
+
+        <div id="symptom_checker" class="func_section func_sec active">
+            <div class="symptom_grid">
+                <div class="symptom_form_wrapper">
+                    <h2>Check for your symptoms.</h2>
+                    <p class="subtext">Kindly fill the below information :</p>
+
+                    <div class="form_group">
+                        <h3>STEP 1 :</h3>
+                        <label for="age" class="label">Enter your age <span class="required">*</span></label>
+                        <select id="age" name="age" class="dropdown">
+                            <option value="">Select</option>
+                            <option value="25">25</option>
+                            <option value="30">30</option>
+                            <option value="35">35</option>
+                            <option value="40">40</option>
+                            <option value="45" selected>45</option>
+                        </select>
+                    </div>
+
+                    <div class="form_group">
+                        <h3>STEP 2 :</h3>
+                        <label class="label">Select Sex <span class="required">*</span></label>
+                        <div class="radio_group">
+                            <label class="radio_btn">
+                                <input type="radio" name="gender" value="male" checked>
+                                <span>Male</span>
+                            </label>
+                            <label class="radio_btn">
+                                <input type="radio" name="gender" value="female">
+                                <span>Female</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form_group">
+                        <h3>STEP 3 :</h3>
+                        <label class="label">Select the body part from the anatomy<span
+                                class="required">*</span></label>
+                        <p class="selected_label">Selected parts :</p>
+                        <div class="tag_group">
+                            <button type="button" class="tag_btn">Left Hand</button>
+                            <button type="button" class="tag_btn">Upper Body</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="anatomy">
+                    <img id="body_image" src="assets/male.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="find-doctor" class="func_section">
+            <h2>Find a Doctor</h2>
+            <p>This is where the "Find a Doctor" section content goes.</p>
+        </div>
+
+        <div id="consult-doctor" class="func_section">
+            <h2>Consult a Doctor</h2>
+            <p>This is where the "Consult a Doctor" section content goes.</p>
+        </div>
+    </section>
+
+    <section class="sec_container blog">
+        <div class="blog_header">
+            <div class="blog_header_content">
+                <h5 class="blog_header_1">CHECKOUT</h5>
+                <h2 class="blog_header_2">OUR BLOGS</h2>
+                <p>We help people access quality healthcare, prevent illness, and stay healthy. From doctor
+                    consultations to essential health products, we make healthcare easy and accessible for everyone with
+                    the help of our healthcare programs.</p>
+            </div>
+            <button class="blog_btn">Explore More</button>
+        </div>
+        <div class="blog_grid">
+            <div class="blog_card">
+                <span><img src="assets/liver.jpg" alt=""></span>
+                <h4>World Liver Day</h4>
+                <p>
+                    The exact cause of most types of
+                    diabetes is unknown. In all cases, sugar
+                    builds up in the bloodstream. This is..
+                </p>
+                <hr>
+                <div class="blog_visit">
+                    <a href="#">Read More</a><i class="ri-arrow-right-line"></i>
+                </div>
+            </div>
+            <div class="blog_card">
+                <span class="img2"><img src="assets/bloodClot.jpg" alt=""></span>
+                <h4>Blood Clots</h4>
+                <p>
+                    The exact cause of most types of
+                    diabetes is unknown. In all cases, sugar
+                    builds up in the bloodstream. This is..
+                </p>
+                <hr>
+                <div class="blog_visit">
+                    <a href="#">Read More</a><i class="ri-arrow-right-line"></i>
+                </div>
+            </div>
+            <div class="blog_card">
+                <span><img src="assets/lung.jpg" alt=""></span>
+                <h4>Respiratory Diseases</h4>
+                <p>
+                    The exact cause of most types of
+                    diabetes is unknown. In all cases, sugar
+                    builds up in the bloodstream. This is..
+                </p>
+                <hr>
+                <div class="blog_visit">
+                    <a href="#">Explore More</a><i class="ri-arrow-right-line"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec_container mobile_ad">
+        <div class="mobile_ad_header">
+            <h2 class="mobile_ad_title">Download our app and get a free medical appointment</h2>
+        </div>
+        <div class="mobile_ad_buttons">
+            <button class="mobile_btn android"><i class="fa-brands fa-google-play playstore"></i> Google Play</button>
+            <button class="mobile_btn ios"><i class="ri-apple-fill apple"></i> App Store</button>
+        </div>
+
+        <div class="mobile_ad_background"></div>
+        <div class="mobile_images">
+            <div class="mobile_ad_images">
+                <img class="tab_img" src="assets/footer_tab.png" alt="">
+                <img class="phone_img" src="assets/footer_phone.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="sec_container footer_container">
+            <div class="footer_col">
+                <h3>Dollar Care</h3>
+                <p>
+                    We are honored to be a part of your healthcare journey and committed to delivering compassionate,
+                    personalized, and top-notch care every step of the way.
+                </p>
+                <p>
+                    Trust us with your health, and let us work together to achieve the best possible outcomes for you
+                    and your loved ones.
+                </p>
+            </div>
+            <div class="footer_col">
+                <h4>About Us</h4>
+                <p>Home</p>
+                <p>Work with Us</p>
+                <p>Our Blog</p>
+                <p>Terms & Conditions</p>
+            </div>
+            <div class="footer_col">
+                <h4>Services</h4>
+                <p>Search Terms</p>
+                <p>Advance Search</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div class="footer_col">
+                <h4>Contact Us</h4>
+                <p><i class="ri-map-pin-2-fill"></i> DollarCARE, 8854 Orange St, Hesperia, CA 92345, USA</p>
+                <p><i class="ri-mail-fill"></i> support@dollarcare.com</p>
+                <p><i class="ri-phone-fill"></i> (+012) 3456 789</p>
+            </div>
+        </div>
+        <div class="footer_bar">
+            <div class="footer_bar_content">
+                <p>Copyright &#169 2025 Dollar Care. All rights reserved.</p>
+                <div class="footer_socials">
+                    <span><i class="ri-facebook-fill"></i></span>
+                    <span><i class="ri-instagram-line"></i></span>
+                    <span><i class="ri-twitter-fill"></i></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
