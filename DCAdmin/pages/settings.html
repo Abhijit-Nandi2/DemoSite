@@ -1,0 +1,246 @@
+<div class="set_head">
+    <h2>My Profile</h2>
+    <div class="set_grid">
+        <div class="set_profile">
+            <img src="/assets/profile.jpg" alt="">
+            <h3>Dr. Stephen Conley</h3>
+            <h4>Cardiologist</h4>
+            <button class="edit_profile"><span class="material-symbols-outlined edit_icon">edit</span><span>Edit
+                    Profile</span></button>
+            <div class="rating">
+                <p>146 Rates</p>
+                <p class="rate_stars"><span class="material-symbols-outlined edit_icon rate_star">star</span>
+                    <span class="material-symbols-outlined edit_icon rate_star">star</span>
+                    <span class="material-symbols-outlined edit_icon rate_star">star</span>
+                    <span class="material-symbols-outlined edit_icon rate_star">star</span>
+                    <span class="material-symbols-outlined edit_icon rate_star">star</span>
+                </p>
+            </div>
+        </div>
+        <div class="set_options">
+            <div class="nav">
+                <ul class="tabs">
+                    <li><button class="tab active" data-tab="profile">My Profile</button></li>
+                    <li><button class="tab" data-tab="passw">Change Password</button></li>
+                    <li><button class="tab" data-tab="notify">Notification</button></li>
+                    <li><button class="tab" data-tab="review">Reviews</button></li>
+                </ul>
+            </div>
+
+
+            <div class="tab-content active" id="profile">
+                <h2>My Profile</h2>
+                <form class="profile-form">
+                    <div class="grid">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+                            <select id="gender" required>
+                                <option value="">Select</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="dob">Date of Birth</label>
+                            <input type="date" id="dob" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="specialization">Specialization</label>
+                            <input type="text" id="specialization" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="experience">Years of Experience</label>
+                            <input type="number" id="experience" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="regNumber">Medical Reg. Number</label>
+                            <input type="text" id="regNumber" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="hospital">Affiliated Hospital</label>
+                            <input type="text" id="hospital" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="languages">Languages</label>
+                            <input type="text" id="languages" placeholder="e.g. English, Hindi" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="fee">Consultation Fee ($)</label>
+                            <input type="number" id="fee" />
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="bio">About Me</label>
+                            <textarea id="bio" placeholder="Write a short bio or introduction..."></textarea>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Save Profile</button>
+                </form>
+            </div>
+
+            <div class="tab-content" id="passw">
+                <h2>Password</h2>
+                <p>View and manage your appointments here.</p>
+            </div>
+
+            <div class="tab-content" id="notify">
+                <h2>Notifications</h2>
+                <p>Set your schedule and availability.</p>
+            </div>
+
+            <div class="tab-content" id="review">
+                <h2>Reviews</h2>
+                <div class="reviews">
+                    <div class="rev_row">
+                        <div class="row1">
+                            <div class="rev">
+                                <img src="assets/people.jpg" alt="">
+                                <div class="appoint_detail">
+                                    <h2>Bodgan Kravchenko</h2>
+                                    <h4>45 Male, 12 April 9:30</h4>
+                                </div>
+                            </div>
+                            <div class="rev_rate">
+                                <p class="rate_stars1"><span
+                                        class="material-symbols-outlined edit_icon rate_star1">star</span>
+                                    <span class="material-symbols-outlined edit_icon rate_star1">star</span>
+                                    <span class="material-symbols-outlined edit_icon rate_star1">star</span>
+                                    <span class="material-symbols-outlined edit_icon rate_star1">star</span>
+                                    <span class="material-symbols-outlined edit_icon rate_star1">star</span>
+                                </p>
+                                <p>8 Jun, 2021</p>
+                            </div>
+                        </div>
+                        <div class="row2">
+                            <div class="desc">
+                                <p>Thank you to Dr. Stephen Conley and staff for a great experience right from the
+                                    start.
+                                    Everyone made me feel comfortable and the outcome was great. If you need hear
+                                    surgery check
+                                    out Dr. Stephen</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="rev_row">
+                        <div class="row1">
+                            <div class="rev">
+                                <img src="assets/people.jpg" alt="">
+                                <div class="appoint_detail">
+                                    <h2>Bodgan Kravchenko</h2>
+                                    <h4>45 Male, 12 April 9:30</h4>
+                                </div>
+                            </div>
+                            <div class="rev_rate">
+                                <p class="rate_stars1"><span
+                                        class="material-symbols-outlined edit_icon rate_star1">star</span>
+                                    <span class="material-symbols-outlined edit_icon rate_star1">star</span>
+                                    <span class="material-symbols-outlined edit_icon rate_star1">star</span>
+                                    <span class="material-symbols-outlined edit_icon rate_star1">star</span>
+                                    <span class="material-symbols-outlined edit_icon rate_star1">star</span>
+                                </p>
+                                <p>8 Jun, 2021</p>
+                            </div>
+                        </div>
+                        <div class="row2">
+                            <div class="desc">
+                                <p>Thank you to Dr. Stephen Conley and staff for a great experience right from the
+                                    start.
+                                    Everyone made me feel comfortable and the outcome was great. If you need hear
+                                    surgery check
+                                    out Dr. Stephen</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rev_row">
+                        <div class="row1">
+                            <div class="rev">
+                                <img src="assets/people.jpg" alt="">
+                                <div class="appoint_detail">
+                                    <h2>Bodgan Kravchenko</h2>
+                                    <h4>45 Male, 12 April 9:30</h4>
+                                </div>
+                            </div>
+                            <div class="rev_rate">
+                                <p class="rate_stars1"><span
+                                        class="material-symbols-outlined edit_icon rate_star1">star</span>
+                                    <span class="material-symbols-outlined edit_icon rate_star1">star</span>
+                                    <span class="material-symbols-outlined edit_icon rate_star1">star</span>
+                                    <span class="material-symbols-outlined edit_icon rate_star1">star</span>
+                                    <span class="material-symbols-outlined edit_icon rate_star1">star</span>
+                                </p>
+                                <p>8 Jun, 2021</p>
+                            </div>
+                        </div>
+                        <div class="row2">
+                            <div class="desc">
+                                <p>Thank you to Dr. Stephen Conley and staff for a great experience right from the
+                                    start.
+                                    Everyone made me feel comfortable and the outcome was great. If you need hear
+                                    surgery check
+                                    out Dr. Stephen</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rev_row">
+                        <div class="row1">
+                            <div class="rev">
+                                <img src="assets/people.jpg" alt="">
+                                <div class="appoint_detail">
+                                    <h2>Bodgan Kravchenko</h2>
+                                    <h4>45 Male, 12 April 9:30</h4>
+                                </div>
+                            </div>
+                            <div class="rev_rate">
+                                <p class="rate_stars1"><span
+                                        class="material-symbols-outlined edit_icon rate_star1">star</span>
+                                    <span class="material-symbols-outlined edit_icon rate_star1">star</span>
+                                    <span class="material-symbols-outlined edit_icon rate_star1">star</span>
+                                    <span class="material-symbols-outlined edit_icon rate_star1">star</span>
+                                    <span class="material-symbols-outlined edit_icon rate_star1">star</span>
+                                </p>
+                                <p>8 Jun, 2021</p>
+                            </div>
+                        </div>
+                        <div class="row2">
+                            <div class="desc">
+                                <p>Thank you to Dr. Stephen Conley and staff for a great experience right from the
+                                    start.
+                                    Everyone made me feel comfortable and the outcome was great. If you need hear
+                                    surgery check
+                                    out Dr. Stephen</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
