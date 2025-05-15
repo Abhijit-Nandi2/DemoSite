@@ -168,6 +168,18 @@ header {
     color: var(--white);
 }
 
+.nav_logo h2 {
+    text-align: left;
+    font-size: 2rem;
+    letter-spacing: 0.3px;
+}
+
+.nav_logo h4 {
+    font-size: 1rem;
+    letter-spacing: 6px;
+    font-weight: 500;
+}
+
 
 .nav_links {
     list-style: none;
@@ -768,6 +780,16 @@ header {
     background-color: var(--button-color-bg);
 }
 
+.footer .nav_logo {
+    padding: 0rem;
+}
+
+.footer .nav_logo h4 {
+    font-size: 1rem;
+    letter-spacing: 6px;
+    font-weight: 500;
+}
+
 .footer_container {
     display: grid;
     grid-template-columns: 400px repeat(3, 1fr);
@@ -857,17 +879,22 @@ header {
 }
 
 .signup_logo {
+    margin: 1rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.signup_icon1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 40px;
-    font-weight: 800;
+.signup_logo h2{
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.signup_logo h4{
+    font-size: 1rem;
+    letter-spacing: 0.37rem;
+    font-weight: 500;
     color: var(--primary-color);
 }
 
@@ -1021,19 +1048,25 @@ header {
 }
 
 .login_logo {
+    margin: 1rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.login_icon1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 40px;
-    font-weight: 800;
+.login_logo h2{
+    font-size: 2rem;
     color: var(--primary-color);
 }
+
+.login_logo h4{
+    font-size: 1rem;
+    letter-spacing: 0.37rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
 
 .login_section h1 {
     font-size: 28px;
