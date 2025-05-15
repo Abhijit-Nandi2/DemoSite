@@ -61,3 +61,13 @@ document.querySelectorAll('.signup_input_wrapper input').forEach((input) => {
   }
 });
 
+function showSidebar(){
+  const sidebar = document.querySelector('.side_nav_links');
+  sidebar.style.display = 'flex';
+}
+
+function hideSidebar(){
+  const sidebar = document.querySelector('.side_nav_links');
+  sidebar.style.display = 'none'
+}
+

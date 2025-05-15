@@ -15,18 +15,35 @@
 <body>
     <header>
         <nav class="sec_container nav_container">
-            <div class="nav_logo">DollarCare</div>
+            <div class="nav_logo">
+                <h2>DollarCare</h2>
+                <h4>Organization</h4>
+            </div>
+
+            <ul class="side_nav_links">
+                <li onclick=hideSidebar() class="link"><a href="#"><i class="ri-close-line close"></i></a></li>
+                <li class="link"><a href="#">Symptom Checker</a></li>
+                <li class="link"><a href="#">Video Consult</a></li>
+                <li class="link"><a href="https://www.paypal.com/donate?hosted_button_id=KVXGWCCBY28B2">Donate</a></li>
+                <li class="link"><a href="#">Blog</a></li>
+                <li class="link"><a href="#">Contact Us</a></li>
+                <li class="link"><a href="pages/login.html">Login</a></li>
+                <li class="link"><a href="pages/signup.html">Sign Up</a></li>
+            </ul>
 
             <ul class="nav_links">
                 <li class="link"><a href="#">Symptom Checker</a></li>
                 <li class="link"><a href="#">Video Consult</a></li>
-                <li class="link"><a href="#">Donate</a></li>
+                <li class="link"><a href="https://www.paypal.com/donate?hosted_button_id=KVXGWCCBY28B2">Donate</a></li>
                 <li class="link"><a href="#">Blog</a></li>
                 <li class="link"><a href="#">Contact Us</a></li>
                 <div class="btn-swap-wrapper">
-                    <button class="btn login-btn">Login</button>
-                    <button class="btn signup-btn">Sign Up</button>
-                  </div>
+                    <button class="btn login-btn" onclick="window.location.href='pages/login.html';">Login</button>
+                    <button class="btn signup-btn" onclick="window.location.href='pages/signup.html';">Sign Up</button>
+                </div>
+            </ul>
+            <ul class="nav_links_1">
+                <li onclick=showSidebar() class="link"><i class="ri-menu-line menu_bar"></i></li>
             </ul>
         </nav>
         <div class="sec_container header_container">
@@ -38,7 +55,7 @@
                 <button class="book-btn">Book Now <i class="ri-arrow-right-line"></i></button>
             </div>
             <div class="header_image">
-                <img src="assets/phone1.png" alt="">
+                <img src="assets/phone1_1.png" alt="">
             </div>
         </div>
     </header>
@@ -315,13 +332,15 @@
             <div class="footer_col">
                 <h4>Contact Us</h4>
                 <p><i class="ri-map-pin-2-fill"></i> DollarCARE, 8854 Orange St, Hesperia, CA 92345, USA</p>
-                <p><i class="ri-mail-fill"></i> support@dollarcare.com</p>
-                <p><i class="ri-phone-fill"></i> (+012) 3456 789</p>
+                <p><i class="ri-mail-fill"></i>info@dollarcare.org</p>
+                <p><i class="ri-phone-fill"></i> +1-760-881-1141</p>
             </div>
         </div>
         <div class="footer_bar">
             <div class="footer_bar_content">
                 <p>Copyright &#169 2025 Dollar Care. All rights reserved.</p>
+                <p>" We are currently revamping our website-keep checking for a brand-new look and feel with extra
+                    features"</p>
                 <div class="footer_socials">
                     <span><i class="ri-facebook-fill"></i></span>
                     <span><i class="ri-instagram-line"></i></span>
