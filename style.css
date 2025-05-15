@@ -827,7 +827,7 @@ header {
 /* Sign Up */
 
 .signupbg {
-    background-image: url("/assets/bg1.png");
+    background-image: url("./assets/bg1.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -991,7 +991,7 @@ header {
 /* Sign In */
 
 .loginbg {
-    background-image: url("/assets/bg1.png");
+    background-image: url("./assets/bg1.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
